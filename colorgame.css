@@ -1,0 +1,106 @@
+html body{
+    background-color: #232323;
+    margin: 0;
+    font-family:"Montserrat" ,"Avenir";
+}
+
+.square{
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    background: purple;
+    float: left;
+    border-radius: 8%;
+    transition: background 2.0s;
+    -webkit-transition: background 2.0s;
+    -moz-transition: background 2.0s;
+}
+
+body h1{
+    color: white;
+    text-align:center;
+    background: steelblue;
+    margin: 0;
+    line-height: 1.1;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+    /*
+    font-size: 70px;*/
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+#container{
+    margin: 20px auto;
+    max-width: 600px;
+}
+/*
+h1 span{
+    font-size: 150px;
+}*/
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected{
+    background: blue;
+}
+
+
+button{
+    border: none;
+    background: none;
+    height: 100%;
+    transition: all 2.0s;
+    outline: none; 
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+#reset{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+}
+
+#easyBtn{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+}
+
+#hardBtn{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+}
+
+button:hover{
+    background: steelblue;
+}
+
+#reset:hover{
+    color:white;
+}
+#easyBtn:hover{
+    color:white;
+}
+#hardBtn:hover{
+    color:white;
+}
